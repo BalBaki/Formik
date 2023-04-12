@@ -1,0 +1,59 @@
+.signup-form-wrapper {
+    display: flex;
+    width: 400px;
+}
+
+.signup-form {
+    width: 100%;
+}
+
+.form-item {
+    margin: 10px 10px 10px 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-item > input {
+    width: 75%;
+}
+
+.form-submit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-list {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.signup-item {
+    position: relative;
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    flex-basis: calc(24% - 10px);
+}
+
+.delete-form {
+    position: absolute;
+    right: 0;
+    top: 5%;
+    font-size: 20px;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+.delete-form:disabled {
+    cursor: not-allowed;
+}
+
+.field-error {
+    color: red;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
